@@ -139,8 +139,8 @@ subprojects {
 }
 
 tasks.register('build') {
-    dependsOn(':cdc.azure.blob.driver-native:build')
-    dependsOn(':cdc.azure.blob.driver-ballerina:build')
+    dependsOn(':cdc.schema.azure.blob.driver-native:build')
+    dependsOn(':cdc.schema.azure.blob.driver-ballerina:build')
 }
 
 release {

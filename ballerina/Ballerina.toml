@@ -1,7 +1,7 @@
 [package]
 org = "ballerinax"
 name = "cdc.schema.azure.blob.driver"
-version = "@toml.version@"
+version = "1.0.0"
 distribution = "2201.12.0"
 authors = ["Ballerina"]
 repository = "https://github.com/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver"
@@ -13,68 +13,68 @@ graalvmCompatible = true
 [[platform.java21.dependency]]
 groupId = "io.ballerina.lib"
 artifactId = "cdc.schema.azure.blob.driver-native"
-version = "@toml.version@"
-path = "../native/build/libs/cdc.schema.azure.blob.driver-native-@project.version@.jar"
+version = "1.0.0"
+path = "../native/build/libs/cdc.schema.azure.blob.driver-native-1.0.0-SNAPSHOT.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.debezium"
 artifactId = "debezium-storage-azure-blob"
-version = "@debezium.version@"
-path = "./lib/debezium-storage-azure-blob-@debezium.version@.jar"
+version = "3.0.8.Final"
+path = "./lib/debezium-storage-azure-blob-3.0.8.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "com.azure"
 artifactId = "azure-storage-blob"
-version = "@azure.storage.blob.version@"
-path = "./lib/azure-storage-blob-@azure.storage.blob.version@.jar"
+version = "12.21.0"
+path = "./lib/azure-storage-blob-12.21.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "com.azure"
 artifactId = "azure-storage-common"
-version = "@azure.storage.common.version@"
-path = "./lib/azure-storage-common-@azure.storage.common.version@.jar"
+version = "12.20.0"
+path = "./lib/azure-storage-common-12.20.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "com.azure"
 artifactId = "azure-storage-internal-avro"
-version = "@azure.storage.internal.avro.version@"
-path = "./lib/azure-storage-internal-avro-@azure.storage.internal.avro.version@.jar"
+version = "12.6.0"
+path = "./lib/azure-storage-internal-avro-12.6.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "com.azure"
 artifactId = "azure-core"
-version = "@azure.core.version@"
-path = "./lib/azure-core-@azure.core.version@.jar"
+version = "1.36.0"
+path = "./lib/azure-core-1.36.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "com.azure"
 artifactId = "azure-core-http-netty"
-version = "@azure.core.http.netty.version@"
-path = "./lib/azure-core-http-netty-@azure.core.http.netty.version@.jar"
+version = "1.13.0"
+path = "./lib/azure-core-http-netty-1.13.0.jar"
 
 [[platform.java21.dependency]]
 groupId = "com.fasterxml.jackson.dataformat"
 artifactId = "jackson-dataformat-xml"
-version = "@jackson.dataformat.xml.version@"
-path = "./lib/jackson-dataformat-xml-@jackson.dataformat.xml.version@.jar"
+version = "2.13.5"
+path = "./lib/jackson-dataformat-xml-2.13.5.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.projectreactor"
 artifactId = "reactor-core"
-version = "@reactor.core.version@"
-path = "./lib/reactor-core-@reactor.core.version@.jar"
+version = "3.4.26"
+path = "./lib/reactor-core-3.4.26.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.projectreactor.netty"
 artifactId = "reactor-netty-core"
-version = "@reactor.netty.version@"
-path = "./lib/reactor-netty-core-@reactor.netty.version@.jar"
+version = "1.0.27"
+path = "./lib/reactor-netty-core-1.0.27.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.projectreactor.netty"
 artifactId = "reactor-netty-http"
-version = "@reactor.netty.version@"
-path = "./lib/reactor-netty-http-@reactor.netty.version@.jar"
+version = "1.0.27"
+path = "./lib/reactor-netty-http-1.0.27.jar"
 
 # Netty upper-layer JARs (4.1.87.Final) — Azure SDK wires to these versions.
 # BRE provides netty-buffer/common/transport/resolver at 4.1.118.Final;
@@ -82,54 +82,54 @@ path = "./lib/reactor-netty-http-@reactor.netty.version@.jar"
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-codec"
-version = "@azure.netty.version@"
-path = "./lib/netty-codec-@azure.netty.version@.jar"
+version = "4.1.87.Final"
+path = "./lib/netty-codec-4.1.87.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-codec-http"
-version = "@azure.netty.version@"
-path = "./lib/netty-codec-http-@azure.netty.version@.jar"
+version = "4.1.87.Final"
+path = "./lib/netty-codec-http-4.1.87.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-codec-http2"
-version = "@azure.netty.version@"
-path = "./lib/netty-codec-http2-@azure.netty.version@.jar"
+version = "4.1.87.Final"
+path = "./lib/netty-codec-http2-4.1.87.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-codec-socks"
-version = "@azure.netty.version@"
-path = "./lib/netty-codec-socks-@azure.netty.version@.jar"
+version = "4.1.87.Final"
+path = "./lib/netty-codec-socks-4.1.87.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-handler"
-version = "@azure.netty.version@"
-path = "./lib/netty-handler-@azure.netty.version@.jar"
+version = "4.1.87.Final"
+path = "./lib/netty-handler-4.1.87.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-handler-proxy"
-version = "@azure.netty.version@"
-path = "./lib/netty-handler-proxy-@azure.netty.version@.jar"
+version = "4.1.87.Final"
+path = "./lib/netty-handler-proxy-4.1.87.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-transport-native-unix-common"
-version = "@azure.netty.version@"
-path = "./lib/netty-transport-native-unix-common-@azure.netty.version@.jar"
+version = "4.1.87.Final"
+path = "./lib/netty-transport-native-unix-common-4.1.87.Final.jar"
 
 # DNS modules use 4.1.86.Final specifically
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-codec-dns"
-version = "@azure.netty.dns.version@"
-path = "./lib/netty-codec-dns-@azure.netty.dns.version@.jar"
+version = "4.1.86.Final"
+path = "./lib/netty-codec-dns-4.1.86.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-resolver-dns"
-version = "@azure.netty.dns.version@"
-path = "./lib/netty-resolver-dns-@azure.netty.dns.version@.jar"
+version = "4.1.86.Final"
+path = "./lib/netty-resolver-dns-4.1.86.Final.jar"
