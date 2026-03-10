@@ -90,6 +90,7 @@ subprojects {
         }
 
         // Jackson XML (required by Azure SDK for XML parsing)
+        // Version aligned to 2.16.2 to match the CDC module's Jackson version (jackson-core/databind/annotations @ 2.16.2)
         externalJars(group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: "${jacksonDataformatXmlVersion}") {
             transitive = false
         }
