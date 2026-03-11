@@ -76,6 +76,12 @@ artifactId = "reactor-netty-http"
 version = "1.0.27"
 path = "./lib/reactor-netty-http-1.0.27.jar"
 
+[[platform.java21.dependency]]
+groupId = "org.reactivestreams"
+artifactId = "reactive-streams"
+version = "1.0.4"
+path = "./lib/reactive-streams-1.0.4.jar"
+
 # Netty upper-layer JARs (4.1.87.Final) — Azure SDK wires to these versions.
 # BRE provides netty-buffer/common/transport/resolver at 4.1.118.Final;
 # the codec/handler JARs below are NOT in the BRE and must be declared explicitly.
