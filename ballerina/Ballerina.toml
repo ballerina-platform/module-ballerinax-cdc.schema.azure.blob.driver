@@ -93,6 +93,12 @@ path = "./lib/reactive-streams-1.0.4.jar"
 # declaring these at 4.1.87.Final overrides the BRE versions for Azure compatibility.
 [[platform.java21.dependency]]
 groupId = "io.netty"
+artifactId = "netty-buffer"
+version = "4.1.87.Final"
+path = "./lib/netty-buffer-4.1.87.Final.jar"
+
+[[platform.java21.dependency]]
+groupId = "io.netty"
 artifactId = "netty-common"
 version = "4.1.87.Final"
 path = "./lib/netty-common-4.1.87.Final.jar"
