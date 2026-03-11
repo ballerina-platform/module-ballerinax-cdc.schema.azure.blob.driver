@@ -59,6 +59,12 @@ version = "2.16.2"
 path = "./lib/jackson-dataformat-xml-2.16.2.jar"
 
 [[platform.java21.dependency]]
+groupId = "com.fasterxml.jackson.datatype"
+artifactId = "jackson-datatype-jsr310"
+version = "2.16.2"
+path = "./lib/jackson-datatype-jsr310-2.16.2.jar"
+
+[[platform.java21.dependency]]
 groupId = "io.projectreactor"
 artifactId = "reactor-core"
 version = "3.4.26"
