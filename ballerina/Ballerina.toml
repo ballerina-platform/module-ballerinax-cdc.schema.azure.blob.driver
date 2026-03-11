@@ -135,6 +135,12 @@ path = "./lib/netty-transport-4.1.87.Final.jar"
 
 [[platform.java21.dependency]]
 groupId = "io.netty"
+artifactId = "netty-resolver"
+version = "4.1.87.Final"
+path = "./lib/netty-resolver-4.1.87.Final.jar"
+
+[[platform.java21.dependency]]
+groupId = "io.netty"
 artifactId = "netty-transport-native-unix-common"
 version = "4.1.87.Final"
 path = "./lib/netty-transport-native-unix-common-4.1.87.Final.jar"
