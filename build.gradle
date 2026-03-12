@@ -94,8 +94,16 @@ subprojects {
         externalJars(group: 'com.fasterxml.jackson.dataformat', name: 'jackson-dataformat-xml', version: "${jacksonDataformatXmlVersion}") {
             transitive = false
         }
+        // jackson-datatype-jsr310 is required by azure-core for Java 8 date/time serialization; not in BRE classpath
+        externalJars(group: 'com.fasterxml.jackson.datatype', name: 'jackson-datatype-jsr310', version: "${jacksonDatatypeJsr310Version}") {
+            transitive = false
+        }
 
         // Reactor (required by azure-core and reactor-netty)
+        // reactive-streams is reactor-core's only non-JDK dependency; not in BRE runtime
+        externalJars(group: 'org.reactivestreams', name: 'reactive-streams', version: "${reactiveStreamsVersion}") {
+            transitive = false
+        }
         externalJars(group: 'io.projectreactor', name: 'reactor-core', version: "${reactorCoreVersion}") {
             transitive = false
         }
@@ -124,6 +132,18 @@ subprojects {
             transitive = false
         }
         externalJars(group: 'io.netty', name: 'netty-handler-proxy', version: "${azureNettyVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'io.netty', name: 'netty-buffer', version: "${azureNettyVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'io.netty', name: 'netty-common', version: "${azureNettyVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'io.netty', name: 'netty-transport', version: "${azureNettyVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'io.netty', name: 'netty-resolver', version: "${azureNettyVersion}") {
             transitive = false
         }
         externalJars(group: 'io.netty', name: 'netty-transport-native-unix-common', version: "${azureNettyVersion}") {

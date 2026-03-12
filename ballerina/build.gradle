@@ -62,6 +62,8 @@ tasks.register('updateTomlFiles') {
         newBallerinaToml = newBallerinaToml.replace("@azure.core.version@", azureCoreVersion)
         newBallerinaToml = newBallerinaToml.replace("@azure.core.http.netty.version@", azureCoreHttpNettyVersion)
         newBallerinaToml = newBallerinaToml.replace("@jackson.dataformat.xml.version@", jacksonDataformatXmlVersion)
+        newBallerinaToml = newBallerinaToml.replace("@jackson.datatype.jsr310.version@", jacksonDatatypeJsr310Version)
+        newBallerinaToml = newBallerinaToml.replace("@reactive.streams.version@", reactiveStreamsVersion)
         newBallerinaToml = newBallerinaToml.replace("@reactor.core.version@", reactorCoreVersion)
         newBallerinaToml = newBallerinaToml.replace("@reactor.netty.version@", reactorNettyVersion)
         newBallerinaToml = newBallerinaToml.replace("@azure.netty.version@", azureNettyVersion)
