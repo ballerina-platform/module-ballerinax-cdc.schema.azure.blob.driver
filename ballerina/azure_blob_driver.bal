@@ -21,4 +21,4 @@
 // `AzureBlobInternalSchemaStorage` configuration option:
 //
 //   import ballerinax/cdc;
-//   import ballerinax/cdc.azure.blob.driver as _;
+//   import ballerinax/cdc.schema.azure.blob.driver as _;
