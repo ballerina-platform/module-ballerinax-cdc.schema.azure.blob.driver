@@ -4,7 +4,7 @@ Ballerina CDC Azure Blob Schema History Driver Library
   [![Build](https://github.com/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver/actions/workflows/build-timestamped-master.yml/badge.svg)](https://github.com/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver/actions/workflows/build-timestamped-master.yml)
   [![Trivy](https://github.com/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver/actions/workflows/trivy-scan.yml/badge.svg)](https://github.com/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver/actions/workflows/trivy-scan.yml)
   [![GitHub Last Commit](https://img.shields.io/github/last-commit/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver.svg)](https://github.com/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver/commits/main)
-  [![GitHub issues](https://img.shields.io/github/issues/ballerina-platform/ballerina-standard-library/module/cdc.svg?label=Open%20Issues)](https://github.com/ballerina-platform/ballerina-standard-library/labels/module%2Fcdc)
+  [![GitHub issues](https://img.shields.io/github/issues/ballerina-platform/ballerina-library/module/cdc.svg?label=Open%20Issues)](https://github.com/ballerina-platform/ballerina-library/labels/module%2Fcdc)
 
 This library provides the necessary drivers required for the CDC (Change Data Capture) connector to use Azure Blob Storage as an internal schema history storage in Ballerina.
 
