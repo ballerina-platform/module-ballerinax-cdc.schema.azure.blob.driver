@@ -4,6 +4,7 @@ name = "cdc.schema.azure.blob.driver"
 version = "@toml.version@"
 distribution = "2201.12.0"
 authors = ["Ballerina"]
+keywords = ["CDC", "Debezium", "Area/Database", "Type/Driver", "Vendor/Red Hat"]
 repository = "https://github.com/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver"
 license = ["Apache-2.0"]
 
