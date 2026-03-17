@@ -1,5 +1,4 @@
-Ballerina CDC Azure Blob Schema History Driver Library
-===================
+# Ballerina CDC Azure Blob Schema History Driver Library
 
   [![Build](https://github.com/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver/actions/workflows/build-timestamped-master.yml/badge.svg)](https://github.com/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver/actions/workflows/build-timestamped-master.yml)
   [![Trivy](https://github.com/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver/actions/workflows/trivy-scan.yml/badge.svg)](https://github.com/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver/actions/workflows/trivy-scan.yml)
@@ -68,6 +67,6 @@ All contributors are encouraged to read the [Ballerina code of conduct](https://
 ## Useful links
 
 * For more information go to the [`cdc.schema.azure.blob.driver` library](https://lib.ballerina.io/ballerinax/cdc.schema.azure.blob.driver/latest).
-* For example demonstrations of the usage, go to [Ballerina By Examples](https://ballerina.io/learn/by-example/#database-access).
+* For example demonstrations of the usage, go to [Ballerina By Examples](https://ballerina.io/learn/by-example/#change-data-capture).
 * Chat live with us via our [Discord server](https://discord.gg/ballerinalang).
 * Post all technical questions on Stack Overflow with the [#ballerina](https://stackoverflow.com/questions/tagged/ballerina) tag.
