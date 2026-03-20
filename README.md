@@ -40,19 +40,27 @@ Execute the commands below to build from the source.
 
 1. To build the library:
 
-        ./gradlew clean build
+   ```bash
+   ./gradlew clean build
+   ```
 
 2. Publish ZIP artifact to the local `.m2` repository:
 
-        ./gradlew clean build publishToMavenLocal
+   ```bash
+   ./gradlew clean build publishToMavenLocal
+   ```
 
 3. Publish the generated artifacts to the local Ballerina central repository:
 
-        ./gradlew clean build -PpublishToLocalCentral=true
+   ```bash
+   ./gradlew clean build -PpublishToLocalCentral=true
+   ```
 
 4. Publish the generated artifacts to the Ballerina central repository:
 
-        ./gradlew clean build -PpublishToCentral=true
+   ```bash
+   ./gradlew clean build -PpublishToCentral=true
+   ```
 
 ## Contribute to Ballerina
 

@@ -20,7 +20,7 @@ plugins {
     id 'java'
 }
 
-description = 'Ballerina - CDC Azure Blob Storage Driver Java Native'
+description = 'Ballerina - CDC Schema Azure Blob Storage Driver Java Native'
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'

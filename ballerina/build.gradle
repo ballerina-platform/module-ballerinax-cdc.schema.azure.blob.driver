@@ -22,7 +22,7 @@ plugins {
     id 'io.ballerina.plugin'
 }
 
-description = 'Ballerina - CDC Azure Blob Storage Driver'
+description = 'Ballerina - CDC Schema Azure Blob Storage Driver'
 
 def packageName = "cdc.schema.azure.blob.driver"
 def packageOrg = "ballerinax"

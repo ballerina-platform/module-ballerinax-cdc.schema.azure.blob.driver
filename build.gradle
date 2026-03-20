@@ -23,7 +23,7 @@ plugins {
     id 'net.researchgate.release'
 }
 
-description = 'Ballerina - CDC Azure Blob Storage Driver'
+description = 'Ballerina - CDC Schema Azure Blob Storage Driver'
 
 ext.ballerinaLangVersion = project.ballerinaLangVersion
 
