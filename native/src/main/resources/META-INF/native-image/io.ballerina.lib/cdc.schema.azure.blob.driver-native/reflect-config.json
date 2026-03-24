@@ -1,0 +1,6 @@
+[
+{
+  "name":"io.debezium.storage.azure.blob.history.AzureBlobSchemaHistory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+}
+]

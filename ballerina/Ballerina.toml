@@ -1,0 +1,172 @@
+[package]
+org = "ballerinax"
+name = "cdc.schema.azure.blob.driver"
+version = "1.0.0"
+distribution = "2201.12.0"
+authors = ["Ballerina"]
+keywords = ["CDC", "Debezium", "Area/Database", "Type/Driver", "Vendor/Red Hat"]
+repository = "https://github.com/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver"
+license = ["Apache-2.0"]
+
+[platform.java21]
+graalvmCompatible = true
+
+[[platform.java21.dependency]]
+groupId = "io.ballerina.lib"
+artifactId = "cdc.schema.azure.blob.driver-native"
+version = "1.0.0"
+path = "../native/build/libs/cdc.schema.azure.blob.driver-native-1.0.0-SNAPSHOT.jar"
+
+[[platform.java21.dependency]]
+groupId = "io.debezium"
+artifactId = "debezium-storage-azure-blob"
+version = "3.0.8.Final"
+path = "./lib/debezium-storage-azure-blob-3.0.8.Final.jar"
+
+[[platform.java21.dependency]]
+groupId = "com.azure"
+artifactId = "azure-storage-blob"
+version = "12.21.0"
+path = "./lib/azure-storage-blob-12.21.0.jar"
+
+[[platform.java21.dependency]]
+groupId = "com.azure"
+artifactId = "azure-storage-common"
+version = "12.20.0"
+path = "./lib/azure-storage-common-12.20.0.jar"
+
+[[platform.java21.dependency]]
+groupId = "com.azure"
+artifactId = "azure-storage-internal-avro"
+version = "12.6.0"
+path = "./lib/azure-storage-internal-avro-12.6.0.jar"
+
+[[platform.java21.dependency]]
+groupId = "com.azure"
+artifactId = "azure-core"
+version = "1.36.0"
+path = "./lib/azure-core-1.36.0.jar"
+
+[[platform.java21.dependency]]
+groupId = "com.azure"
+artifactId = "azure-core-http-netty"
+version = "1.13.0"
+path = "./lib/azure-core-http-netty-1.13.0.jar"
+
+[[platform.java21.dependency]]
+groupId = "com.fasterxml.jackson.dataformat"
+artifactId = "jackson-dataformat-xml"
+version = "2.16.2"
+path = "./lib/jackson-dataformat-xml-2.16.2.jar"
+
+[[platform.java21.dependency]]
+groupId = "com.fasterxml.jackson.datatype"
+artifactId = "jackson-datatype-jsr310"
+version = "2.16.2"
+path = "./lib/jackson-datatype-jsr310-2.16.2.jar"
+
+[[platform.java21.dependency]]
+groupId = "io.projectreactor"
+artifactId = "reactor-core"
+version = "3.4.26"
+path = "./lib/reactor-core-3.4.26.jar"
+
+[[platform.java21.dependency]]
+groupId = "io.projectreactor.netty"
+artifactId = "reactor-netty-core"
+version = "1.0.27"
+path = "./lib/reactor-netty-core-1.0.27.jar"
+
+[[platform.java21.dependency]]
+groupId = "io.projectreactor.netty"
+artifactId = "reactor-netty-http"
+version = "1.0.27"
+path = "./lib/reactor-netty-http-1.0.27.jar"
+
+[[platform.java21.dependency]]
+groupId = "org.reactivestreams"
+artifactId = "reactive-streams"
+version = "1.0.4"
+path = "./lib/reactive-streams-1.0.4.jar"
+
+# Netty JARs (4.1.87.Final) — Azure SDK wires to these versions.
+# BRE provides netty-buffer/common/transport/resolver at 4.1.118.Final;
+# declaring these at 4.1.87.Final overrides the BRE versions for Azure compatibility.
+[[platform.java21.dependency]]
+groupId = "io.netty"
+artifactId = "netty-buffer"
+version = "4.1.87.Final"
+path = "./lib/netty-buffer-4.1.87.Final.jar"
+
+[[platform.java21.dependency]]
+groupId = "io.netty"
+artifactId = "netty-common"
+version = "4.1.87.Final"
+path = "./lib/netty-common-4.1.87.Final.jar"
+
+[[platform.java21.dependency]]
+groupId = "io.netty"
+artifactId = "netty-codec"
+version = "4.1.87.Final"
+path = "./lib/netty-codec-4.1.87.Final.jar"
+
+[[platform.java21.dependency]]
+groupId = "io.netty"
+artifactId = "netty-codec-http"
+version = "4.1.87.Final"
+path = "./lib/netty-codec-http-4.1.87.Final.jar"
+
+[[platform.java21.dependency]]
+groupId = "io.netty"
+artifactId = "netty-codec-http2"
+version = "4.1.87.Final"
+path = "./lib/netty-codec-http2-4.1.87.Final.jar"
+
+[[platform.java21.dependency]]
+groupId = "io.netty"
+artifactId = "netty-codec-socks"
+version = "4.1.87.Final"
+path = "./lib/netty-codec-socks-4.1.87.Final.jar"
+
+[[platform.java21.dependency]]
+groupId = "io.netty"
+artifactId = "netty-handler"
+version = "4.1.87.Final"
+path = "./lib/netty-handler-4.1.87.Final.jar"
+
+[[platform.java21.dependency]]
+groupId = "io.netty"
+artifactId = "netty-handler-proxy"
+version = "4.1.87.Final"
+path = "./lib/netty-handler-proxy-4.1.87.Final.jar"
+
+[[platform.java21.dependency]]
+groupId = "io.netty"
+artifactId = "netty-transport"
+version = "4.1.87.Final"
+path = "./lib/netty-transport-4.1.87.Final.jar"
+
+[[platform.java21.dependency]]
+groupId = "io.netty"
+artifactId = "netty-resolver"
+version = "4.1.87.Final"
+path = "./lib/netty-resolver-4.1.87.Final.jar"
+
+[[platform.java21.dependency]]
+groupId = "io.netty"
+artifactId = "netty-transport-native-unix-common"
+version = "4.1.87.Final"
+path = "./lib/netty-transport-native-unix-common-4.1.87.Final.jar"
+
+# DNS modules use 4.1.86.Final specifically
+[[platform.java21.dependency]]
+groupId = "io.netty"
+artifactId = "netty-codec-dns"
+version = "4.1.86.Final"
+path = "./lib/netty-codec-dns-4.1.86.Final.jar"
+
+[[platform.java21.dependency]]
+groupId = "io.netty"
+artifactId = "netty-resolver-dns"
+version = "4.1.86.Final"
+path = "./lib/netty-resolver-dns-4.1.86.Final.jar"
