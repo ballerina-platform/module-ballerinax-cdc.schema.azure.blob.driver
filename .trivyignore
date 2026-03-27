@@ -1,0 +1,4 @@
+# CVE-2025-22227: reactor-netty-http vulnerability with no fix available in the 1.0.x series.
+# The fix requires reactor-netty >= 1.2.8, which in turn requires upgrading azure-core-http-netty
+# to 1.16.x+ and all dependent azure-storage-* components. Tracked for a future Azure SDK upgrade.
+CVE-2025-22227
