@@ -114,7 +114,7 @@ subprojects {
             transitive = false
         }
 
-        // Netty upper-layer JARs (4.1.87.Final) — not in BRE (BRE only has buffer/common/transport/resolver at 4.1.118)
+        // Netty upper-layer JARs — not in BRE (BRE only has buffer/common/transport/resolver at 4.1.118)
         // Azure SDK is wired to use these specific versions via azure-core-http-netty
         externalJars(group: 'io.netty', name: 'netty-codec', version: "${azureNettyVersion}") {
             transitive = false
