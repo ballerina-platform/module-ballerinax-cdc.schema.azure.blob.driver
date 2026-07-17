@@ -10,3 +10,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 ### Changed
+- Upgrade the bundled Debezium Azure Blob schema-history storage to 3.5.1.Final.

@@ -54,6 +54,96 @@ version = "@azure.core.http.netty.version@"
 path = "./lib/azure-core-http-netty-@azure.core.http.netty.version@.jar"
 
 [[platform.java21.dependency]]
+groupId = "com.azure"
+artifactId = "azure-identity"
+version = "@azure.identity.version@"
+path = "./lib/azure-identity-@azure.identity.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "com.azure"
+artifactId = "azure-json"
+version = "@azure.json.version@"
+path = "./lib/azure-json-@azure.json.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "com.azure"
+artifactId = "azure-xml"
+version = "@azure.xml.version@"
+path = "./lib/azure-xml-@azure.xml.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "com.microsoft.azure"
+artifactId = "msal4j"
+version = "@msal4j.version@"
+path = "./lib/msal4j-@msal4j.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "com.microsoft.azure"
+artifactId = "msal4j-persistence-extension"
+version = "@msal4j.persistence.extension.version@"
+path = "./lib/msal4j-persistence-extension-@msal4j.persistence.extension.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "com.nimbusds"
+artifactId = "oauth2-oidc-sdk"
+version = "@oauth2.oidc.sdk.version@"
+path = "./lib/oauth2-oidc-sdk-@oauth2.oidc.sdk.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "com.github.stephenc.jcip"
+artifactId = "jcip-annotations"
+version = "@jcip.annotations.version@"
+path = "./lib/jcip-annotations-@jcip.annotations.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "com.nimbusds"
+artifactId = "content-type"
+version = "@content.type.version@"
+path = "./lib/content-type-@content.type.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "com.nimbusds"
+artifactId = "lang-tag"
+version = "@lang.tag.version@"
+path = "./lib/lang-tag-@lang.tag.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "com.nimbusds"
+artifactId = "nimbus-jose-jwt"
+version = "@nimbus.jose.jwt.version@"
+path = "./lib/nimbus-jose-jwt-@nimbus.jose.jwt.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "net.minidev"
+artifactId = "json-smart"
+version = "@json.smart.version@"
+path = "./lib/json-smart-@json.smart.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "net.minidev"
+artifactId = "accessors-smart"
+version = "@accessors.smart.version@"
+path = "./lib/accessors-smart-@accessors.smart.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "org.ow2.asm"
+artifactId = "asm"
+version = "@asm.version@"
+path = "./lib/asm-@asm.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "net.java.dev.jna"
+artifactId = "jna"
+version = "@jna.version@"
+path = "./lib/jna-@jna.version@.jar"
+
+[[platform.java21.dependency]]
+groupId = "net.java.dev.jna"
+artifactId = "jna-platform"
+version = "@jna.version@"
+path = "./lib/jna-platform-@jna.version@.jar"
+
+[[platform.java21.dependency]]
 groupId = "com.fasterxml.jackson.dataformat"
 artifactId = "jackson-dataformat-xml"
 version = "@jackson.dataformat.xml.version@"
@@ -158,7 +248,6 @@ artifactId = "netty-transport-native-unix-common"
 version = "@azure.netty.version@"
 path = "./lib/netty-transport-native-unix-common-@azure.netty.version@.jar"
 
-# DNS modules use 4.1.86.Final specifically
 [[platform.java21.dependency]]
 groupId = "io.netty"
 artifactId = "netty-codec-dns"

@@ -88,6 +88,53 @@ subprojects {
         externalJars(group: 'com.azure', name: 'azure-core-http-netty', version: "${azureCoreHttpNettyVersion}") {
             transitive = false
         }
+        externalJars(group: 'com.azure', name: 'azure-identity', version: "${azureIdentityVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'com.azure', name: 'azure-json', version: "${azureJsonVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'com.azure', name: 'azure-xml', version: "${azureXmlVersion}") {
+            transitive = false
+        }
+
+        // Azure Identity runtime closure. These must be listed because platform dependencies are non-transitive.
+        externalJars(group: 'com.microsoft.azure', name: 'msal4j', version: "${msal4jVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'com.microsoft.azure', name: 'msal4j-persistence-extension', version: "${msal4jPersistenceExtensionVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'com.nimbusds', name: 'oauth2-oidc-sdk', version: "${oauth2OidcSdkVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'com.github.stephenc.jcip', name: 'jcip-annotations', version: "${jcipAnnotationsVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'com.nimbusds', name: 'content-type', version: "${contentTypeVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'com.nimbusds', name: 'lang-tag', version: "${langTagVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'com.nimbusds', name: 'nimbus-jose-jwt', version: "${nimbusJoseJwtVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'net.minidev', name: 'json-smart', version: "${jsonSmartVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'net.minidev', name: 'accessors-smart', version: "${accessorsSmartVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'org.ow2.asm', name: 'asm', version: "${asmVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'net.java.dev.jna', name: 'jna', version: "${jnaVersion}") {
+            transitive = false
+        }
+        externalJars(group: 'net.java.dev.jna', name: 'jna-platform', version: "${jnaVersion}") {
+            transitive = false
+        }
 
         // Jackson XML (required by Azure SDK for XML parsing)
         // Version aligned to 2.16.2 to match the CDC module's Jackson version (jackson-core/databind/annotations @ 2.16.2)
