@@ -1,7 +1,7 @@
 # Ballerina CDC Azure Blob Schema History Driver Library
 
   [![Build](https://github.com/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver/actions/workflows/build-timestamped-master.yml/badge.svg)](https://github.com/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver/actions/workflows/build-timestamped-master.yml)
-  [![Trivy](https://github.com/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver/actions/workflows/trivy-scan.yml/badge.svg)](https://github.com/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver/actions/workflows/trivy-scan.yml)
+  [![Security Scan](https://github.com/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver/actions/workflows/security-scan.yml/badge.svg)](https://github.com/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver/actions/workflows/security-scan.yml)
   [![GitHub Last Commit](https://img.shields.io/github/last-commit/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver.svg)](https://github.com/ballerina-platform/module-ballerinax-cdc.schema.azure.blob.driver/commits/main)
   [![GitHub issues](https://img.shields.io/github/issues/ballerina-platform/ballerina-library/module/cdc.svg?label=Open%20Issues)](https://github.com/ballerina-platform/ballerina-library/labels/module%2Fcdc)
 
@@ -28,8 +28,8 @@ This repository only contains the source code for the package.
 
 ### Set up the prerequisites
 
-1. Download and install Java SE Development Kit (JDK) version 21 (from one of the following locations).
-   * [Oracle](https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html)
+1. Download and install Java SE Development Kit (JDK) version 25 (from one of the following locations).
+   * [Oracle](https://www.oracle.com/java/technologies/downloads/)
    * [OpenJDK](https://adoptium.net/)
 
 2. Download and install [Docker](https://www.docker.com/get-started)
