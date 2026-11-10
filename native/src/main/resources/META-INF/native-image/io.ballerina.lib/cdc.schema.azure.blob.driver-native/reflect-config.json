@@ -2,5 +2,34 @@
 {
   "name":"io.debezium.storage.azure.blob.history.AzureBlobSchemaHistory",
   "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name": "com.azure.storage.blob.implementation.models.BlobStorageError",
+  "queryAllDeclaredMethods": true,
+  "methods": [
+    {
+      "name": "fromXml",
+      "parameterTypes": [
+        "com.azure.xml.XmlReader"
+      ]
+    }
+  ]
+},
+{
+  "name": "com.azure.storage.blob.implementation.models.BlobStorageExceptionInternal",
+  "methods": [
+    {
+      "name": "<init>",
+      "parameterTypes": [
+        "java.lang.String",
+        "com.azure.core.http.HttpResponse",
+        "com.azure.storage.blob.implementation.models.BlobStorageError"
+      ]
+    },
+    {
+      "name": "getValue",
+      "parameterTypes": []
+    }
+  ]
 }
 ]
