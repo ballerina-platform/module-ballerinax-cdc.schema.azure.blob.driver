@@ -1,7 +1,7 @@
 [package]
 org = "ballerinax"
 name = "cdc.schema.azure.blob.driver"
-version = "1.2.2"
+version = "1.2.3"
 distribution = "2201.14.0"
 authors = ["Ballerina"]
 keywords = ["CDC", "Debezium", "Area/Database", "Type/Driver", "Vendor/Red Hat"]
@@ -14,8 +14,8 @@ graalvmCompatible = true
 [[platform.java25.dependency]]
 groupId = "io.ballerina.lib"
 artifactId = "cdc.schema.azure.blob.driver-native"
-version = "1.2.2"
-path = "../native/build/libs/cdc.schema.azure.blob.driver-native-1.2.2-SNAPSHOT.jar"
+version = "1.2.3"
+path = "../native/build/libs/cdc.schema.azure.blob.driver-native-1.2.3-SNAPSHOT.jar"
 
 [[platform.java25.dependency]]
 groupId = "io.debezium"
@@ -182,95 +182,95 @@ path = "./lib/reactive-streams-1.0.4.jar"
 [[platform.java25.dependency]]
 groupId = "io.netty"
 artifactId = "netty-buffer"
-version = "4.2.18.Final"
-path = "./lib/netty-buffer-4.2.18.Final.jar"
+version = "4.2.20.Final"
+path = "./lib/netty-buffer-4.2.20.Final.jar"
 
 [[platform.java25.dependency]]
 groupId = "io.netty"
 artifactId = "netty-common"
-version = "4.2.18.Final"
-path = "./lib/netty-common-4.2.18.Final.jar"
+version = "4.2.20.Final"
+path = "./lib/netty-common-4.2.20.Final.jar"
 
 [[platform.java25.dependency]]
 groupId = "io.netty"
 artifactId = "netty-codec-base"
-version = "4.2.18.Final"
-path = "./lib/netty-codec-base-4.2.18.Final.jar"
+version = "4.2.20.Final"
+path = "./lib/netty-codec-base-4.2.20.Final.jar"
 
 [[platform.java25.dependency]]
 groupId = "io.netty"
 artifactId = "netty-codec-compression"
-version = "4.2.18.Final"
-path = "./lib/netty-codec-compression-4.2.18.Final.jar"
+version = "4.2.20.Final"
+path = "./lib/netty-codec-compression-4.2.20.Final.jar"
 
 [[platform.java25.dependency]]
 groupId = "io.netty"
 artifactId = "netty-codec-http"
-version = "4.2.18.Final"
-path = "./lib/netty-codec-http-4.2.18.Final.jar"
+version = "4.2.20.Final"
+path = "./lib/netty-codec-http-4.2.20.Final.jar"
 
 [[platform.java25.dependency]]
 groupId = "io.netty"
 artifactId = "netty-codec-http2"
-version = "4.2.18.Final"
-path = "./lib/netty-codec-http2-4.2.18.Final.jar"
+version = "4.2.20.Final"
+path = "./lib/netty-codec-http2-4.2.20.Final.jar"
 
 [[platform.java25.dependency]]
 groupId = "io.netty"
 artifactId = "netty-codec-http3"
-version = "4.2.18.Final"
-path = "./lib/netty-codec-http3-4.2.18.Final.jar"
+version = "4.2.20.Final"
+path = "./lib/netty-codec-http3-4.2.20.Final.jar"
 
 [[platform.java25.dependency]]
 groupId = "io.netty"
 artifactId = "netty-codec-classes-quic"
-version = "4.2.18.Final"
-path = "./lib/netty-codec-classes-quic-4.2.18.Final.jar"
+version = "4.2.20.Final"
+path = "./lib/netty-codec-classes-quic-4.2.20.Final.jar"
 
 [[platform.java25.dependency]]
 groupId = "io.netty"
 artifactId = "netty-codec-socks"
-version = "4.2.18.Final"
-path = "./lib/netty-codec-socks-4.2.18.Final.jar"
+version = "4.2.20.Final"
+path = "./lib/netty-codec-socks-4.2.20.Final.jar"
 
 [[platform.java25.dependency]]
 groupId = "io.netty"
 artifactId = "netty-handler"
-version = "4.2.18.Final"
-path = "./lib/netty-handler-4.2.18.Final.jar"
+version = "4.2.20.Final"
+path = "./lib/netty-handler-4.2.20.Final.jar"
 
 [[platform.java25.dependency]]
 groupId = "io.netty"
 artifactId = "netty-handler-proxy"
-version = "4.2.18.Final"
-path = "./lib/netty-handler-proxy-4.2.18.Final.jar"
+version = "4.2.20.Final"
+path = "./lib/netty-handler-proxy-4.2.20.Final.jar"
 
 [[platform.java25.dependency]]
 groupId = "io.netty"
 artifactId = "netty-transport"
-version = "4.2.18.Final"
-path = "./lib/netty-transport-4.2.18.Final.jar"
+version = "4.2.20.Final"
+path = "./lib/netty-transport-4.2.20.Final.jar"
 
 [[platform.java25.dependency]]
 groupId = "io.netty"
 artifactId = "netty-resolver"
-version = "4.2.18.Final"
-path = "./lib/netty-resolver-4.2.18.Final.jar"
+version = "4.2.20.Final"
+path = "./lib/netty-resolver-4.2.20.Final.jar"
 
 [[platform.java25.dependency]]
 groupId = "io.netty"
 artifactId = "netty-transport-native-unix-common"
-version = "4.2.18.Final"
-path = "./lib/netty-transport-native-unix-common-4.2.18.Final.jar"
+version = "4.2.20.Final"
+path = "./lib/netty-transport-native-unix-common-4.2.20.Final.jar"
 
 [[platform.java25.dependency]]
 groupId = "io.netty"
 artifactId = "netty-codec-dns"
-version = "4.2.18.Final"
-path = "./lib/netty-codec-dns-4.2.18.Final.jar"
+version = "4.2.20.Final"
+path = "./lib/netty-codec-dns-4.2.20.Final.jar"
 
 [[platform.java25.dependency]]
 groupId = "io.netty"
 artifactId = "netty-resolver-dns"
-version = "4.2.18.Final"
-path = "./lib/netty-resolver-dns-4.2.18.Final.jar"
+version = "4.2.20.Final"
+path = "./lib/netty-resolver-dns-4.2.20.Final.jar"
