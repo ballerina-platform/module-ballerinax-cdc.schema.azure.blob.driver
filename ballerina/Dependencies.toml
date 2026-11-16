@@ -10,7 +10,7 @@ distribution-version = "2201.14.0"
 [[package]]
 org = "ballerinax"
 name = "cdc.schema.azure.blob.driver"
-version = "1.2.2"
+version = "1.2.3"
 modules = [
 	{org = "ballerinax", packageName = "cdc.schema.azure.blob.driver", moduleName = "cdc.schema.azure.blob.driver"}
 ]
